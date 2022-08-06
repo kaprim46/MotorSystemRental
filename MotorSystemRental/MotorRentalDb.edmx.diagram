@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="eaddfed28250477398146ee3c497c506" Name="Diagram1">
+        <EntityTypeShape EntityType="MotorRentalModel.MotorRentalRecord" Width="2.125" PointX="3.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MotorRentalModel.TypesOfMotor" Width="2" PointX="0.5" PointY="0.5" IsExpanded="true" />
+        <AssociationConnector Association="MotorRentalModel.FK_MotorRentalRecord_TypesOfMotors" />
+        <EntityTypeShape EntityType="MotorRentalModel.Role" Width="2.125" PointX="6.5" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="MotorRentalModel.UserRole" Width="2.125" PointX="9.375" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MotorRentalModel.user" Width="2.125" PointX="6.375" PointY="0.5" IsExpanded="true" />
+        <AssociationConnector Association="MotorRentalModel.FK_UserRoles_Roles" />
+        <AssociationConnector Association="MotorRentalModel.FK_UserRoles_users" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
